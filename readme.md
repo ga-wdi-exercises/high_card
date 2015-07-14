@@ -6,6 +6,7 @@ Game time! Create a new file called `high_card.rb` for this exercise.
 
 * `each_with_index`
 * `max`
+* `shuffle`
 
 **Tasks:**
 
