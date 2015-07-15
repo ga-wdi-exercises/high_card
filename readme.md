@@ -31,9 +31,13 @@ Game time! Create a new file called `high_card.rb` for this exercise.
 5. Find the winning player name, then print out:
 	* **"Winner(s): {name1, name2, …}!"**
 
-### Bonus…
+### Bonus I
 
 Print out *one* of the following outcomes:
 
 * **"The winner is {name}!"**
 * **"It's a tie between {name1, name2, …}!"**
+
+### Bonus II
+
+Have the game redraw cards for both players in the case of a tie.
