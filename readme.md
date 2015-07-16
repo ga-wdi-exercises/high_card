@@ -41,4 +41,4 @@ Print out *one* of the following outcomes:
 
 ### Bonus II
 
-Have the game redraw cards for both players in the case of a tie.
+Have the game redraw cards for all players in the case of a tie.
