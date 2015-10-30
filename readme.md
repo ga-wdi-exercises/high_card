@@ -1,6 +1,6 @@
 ## Let's Play High-Card-Wins
 
-Game time! Create a new file called `high_card.rb` for this exercise.
+Game time!
 
 **Methods to research:**
 
