@@ -31,6 +31,5 @@ def play players
 end
 
 def get_winner players
-  max_rank = players.max_by{|player| ranks.index(player[:card][0])}[:card][0]
-  winners = players.select{|player| player[:card][0] == max_rank}
+  players.max_by{|player| ranks.index(player[:card][0])}
 end

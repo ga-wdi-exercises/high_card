@@ -30,7 +30,7 @@ Game time!
 3. Upon *"play"*, deal each player a card.
 4. Find the highest card score dealt (Aces high).
 5. Find the winning player name, then print out:
-	* **"Winner(s): {name1, name2, …}!"**
+	* ex **"Winner: Sue!!"**
 
 ### Bonus I
 
@@ -42,3 +42,7 @@ Print out *one* of the following outcomes:
 ### Bonus II
 
 Have the game redraw cards for all players in the case of a tie.
+
+### Bonus III
+
+Bonus I and II do not have tests, write tests for them in `spec/high_card_spec.rb`

@@ -42,8 +42,12 @@ describe "highcard" do
       expect(ranks.include?(sample_card_rank)).to eq(true)
       expect(suits.include?(sample_card_suit)).to eq(true)
     end
-    it "should determine winner" do
-      
+    it "should determine a winner" do
+      players = [
+        {name: "sue", card: [2, "diamonds"]},
+        {name: "mary", card: [4, "clubs"]}
+      ]
+      expect(get_winner players).to eq({name: "mary", card: [4, "clubs"]})
     end
   end
 end
