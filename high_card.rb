@@ -6,30 +6,27 @@ def suits
   [ "hearts", "spades", "clubs", "diamonds" ]
 end
 
+## this method should return a deck as an array with card elements following this format: [2, "diamonds"]
 def deck
-  ranks.product suits
+
 end
 
+## this method should return a deck that is randomized
 def shuffle_deck
-  deck.shuffle
+
 end
 
+## this method should get user input for players and return an array of those players
 def get_players
-  players = []
-  while (player = gets.chomp) != "play"
-    players << {name: player, card: nil}
-  end
-  players
+
 end
 
+## this method should deal a card to each player and return an array of the players with a card. Ex. [{name: bob, card: [2, "diamonds"]}]
 def play players
-  shuffled_deck = shuffle_deck
-  players.each do |player|
-    player[:card] = shuffled_deck.pop
-  end
-  players
+
 end
 
+## this method should return the player hash with the highest card
 def get_winner players
-  players.max_by{|player| ranks.index(player[:card][0])}
+
 end
